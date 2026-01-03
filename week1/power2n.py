@@ -23,16 +23,15 @@ def power2n_c(n):
 print("方法三", power2n_c(n))
 
 # 方法 d：用遞迴+查表
-num = [None]*100000000
-num[0] = 0
-num[1] = 1
+num = [None]*10000
+num[0] = 1
 def power2n_d(n):
     if n < 0:
         raise
     if not num[n] is None:
         return num[n]
     
-    num[n] = power2n_d(n-1) + power2n_d(n-2)
+    num[n] = power2n_d(n-1) + power2n_d(n-1)
 
     return num[n]
 
