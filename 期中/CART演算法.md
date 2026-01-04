@@ -1,0 +1,2 @@
+Chatgpt 對話連結：https://chatgpt.com/share/695a0838-c6d8-800c-b9ac-8c3fda14384b
+Canva 連結：
